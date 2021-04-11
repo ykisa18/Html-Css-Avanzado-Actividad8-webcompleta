@@ -1,0 +1,244 @@
+html{
+    background-color:rgb(223, 114, 102);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  Inicio navbar */
+
+header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 30vh;
+}
+
+.container{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-logo{
+    width: 100%;
+    margin: 0 auto;
+    height: 20vh;
+    background-size: 100%;
+}
+
+.cont-logo .filter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-logo .filter img{
+    width: 20%;
+    height: 120px;
+    padding-top: 10px;
+}
+
+.cont-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 178, 169);
+}
+
+.cont-nav nav{
+    width: 100%;
+    height: 100%;
+}
+
+.cont-nav nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cont-nav nav ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    height: 100%;
+    padding: 5px 20px 5px 20px;
+    color: azure;
+    transition: all .5s;
+}
+
+.cont-nav nav ul li:hover{
+    color:darkgray;
+    cursor: pointer;
+}
+
+.cont-nav nav ul li:nth-child(1){
+    color:rgb(133, 119, 119);
+}
+
+/*  End navbar  */
+
+/* footer*/
+
+.container-footer{
+    width: 100%;
+    height: 88vh;
+    background-color: blueviolet;
+    background-image: url(https://fondosmil.com/fondo/1613.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-footer .filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container-footer .filter .row:nth-child(1){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(1) img{
+    width: 25%;
+    margin-top: 40px;
+    
+}
+
+.container-footer .filter .row:nth-child(2){
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+    width: 25%;
+    padding: 20px 10px;
+    margin-left: 40px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li{
+    padding: 5px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:nth-child(1){
+    color: brown;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul li:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+    width: 25%;
+    padding: 20px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+    list-style: none;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li{
+    padding: 5px 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    transition: ease-in-out .5s;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul li:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
+    background-color: rgb(185, 180, 180);
+    border-radius: 8px;
+    outline: none;
+    border: 1.2rem;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
+    width: 60%;
+    padding: 7px 12px;
+    margin-top: 30px;
+    background-color: coral;
+    color:rgb(49, 49, 49);
+    border-radius: 7px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button:hover{
+    background-color:darksalmon;
+    cursor: pointer;
+}
+
+.container-footer .filter .row:nth-child(3){
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-footer .filter .row:nth-child(3) img{
+    width: 40%;
+    height: 10%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.container-footer .filter .row:nth-child(3) span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:antiquewhite;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+/* ----------- Fin footer ------------ */
